@@ -29,6 +29,11 @@ public class Scalar extends Var {
         return Double.toString(value);
     }
 
+    //@Override
+    //public Var operation(String operator, Var operand) {
+    //    return null;
+   // }
+
     @Override
     public Var add(Var other) {
         System.out.println("Зашли сюда как Scalar+Var");

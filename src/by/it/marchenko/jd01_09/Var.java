@@ -1,10 +1,16 @@
 package by.it.marchenko.jd01_09;
 
-import static by.it.marchenko.jd01_09.MessageConst.*;
+import static by.it.marchenko.jd01_10.calc.MessageConst.*;
 
 abstract class Var implements Operation {
     final String VAR_TO_STRING_MESSAGE = "Unknown variable(abstract stub)";
 
+    //@Override
+/*    public Var operation(String operator, Var operand) {
+        printNotAvailableOperation(operator, operand);
+        return null;
+    }
+*/
     @Override
     public Var add(Var other) {
         printNotAvailableOperation(ADD_OPERATOR, other);
